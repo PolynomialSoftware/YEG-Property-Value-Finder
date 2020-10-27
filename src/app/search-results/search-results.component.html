@@ -2,7 +2,7 @@
   <h2>Results</h2>
   <div *ngFor="let property of properties">
     <p (click)="select(property)">{{ property.address }} -
-      {{ property.assessedValue }}
+      ${{ property.assessedValue }}
     </p>
   </div>
 </div>
